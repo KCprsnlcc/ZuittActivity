@@ -2,31 +2,56 @@
 <html>
 <head>
     <title>HTML Attributes</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 300px;      
+            height: 200px;     
+            object-fit: cover; 
+            border: 1px solid #ccc;
+            padding: 5px;
+            background: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
     <h1>HTML Attributes</h1>
-    <p>HTML Attributes are added to HTML 
-        tags to change or add to the 
-        behavior of an element. They are 
-        added in the opening tags of an element.</p>
-        <h3>Common HTML Attributes</h3>
-        <ol type="a">
-            <li>type</li>
-            <li>id</li>
-            <li>class</li>
-            <li>src</li>
-            <li>href</li>
-        </ol>
-        <!-- div is a generic container
-        for elements. It is usually used 
-        to group elements together. -->
-        <div align="center">
-            <img src="https://i.imgur.com/Tau2zTi.png">
-            <h3>Git VCS</h3>
-        </div>
-        <div align="center">
-            <img src="https://i.imgur.com/9WtW3SE.png">
+    <p>HTML Attributes are added to HTML tags to change or add to the behavior of an element. They are added in the opening tags of an element.</p>
+    <h3>Common HTML Attributes</h3>
+    <ol type="a">
+        <li>type</li>
+        <li>id</li>
+        <li>class</li>
+        <li>src</li>
+        <li>href</li>
+    </ol>
+    <!-- Generic container for grouping elements -->
+    <div align="center">
+        <img src="https://i.imgur.com/Tau2zTi.png" alt="Git VCS">
+        <h3>Git VCS</h3>
+    </div>
+    
+    <!-- Organized gallery container -->
+    <div class="gallery">
+        <!-- Zuitt Coding Bootcamp div -->
+        <div class="gallery-item" align="center">
+            <img src="https://i.imgur.com/9WtW3SE.png" alt="Zuitt Coding Bootcamp">
             <h3>Zuitt Coding Bootcamp</h3>
         </div>
+        <!-- PilarEase Logo div with raw GitHub URL -->
+        <div class="gallery-item" align="center">
+            <img src="https://raw.githubusercontent.com/KCprsnlcc/Images/main/PilarEaseLogo.png" alt="PilarEase Logo">
+            <h3>PilarEase Logo</h3>
+        </div>
+    </div>
 </body>
 </html>
