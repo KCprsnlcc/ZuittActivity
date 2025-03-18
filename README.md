@@ -1,4 +1,4 @@
-\# HTML Project Documentation
+# HTML Project Documentation
 
 This repository contains a set of HTML examples and exercises designed to illustrate basic web development concepts. The project is divided into two main sections: **Discussion** and **Activity**. The discussion files introduce HTML elements such as headings, paragraphs, lists, links (both relative and absolute), images, and comments. The activity section features a more comprehensive HTML page that demonstrates a navigation bar, landing section, tool showcase, projects display, and footer with social links.
 
